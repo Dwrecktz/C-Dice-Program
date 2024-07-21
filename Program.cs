@@ -6,6 +6,8 @@ namespace Dice_Roll_Program
     {
         static void Main(string[] args)
         {
+
+            Console.Title = "Dice Roll";
             int roll = 0;
 
             Random numberGen = new Random();
